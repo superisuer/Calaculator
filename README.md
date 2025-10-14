@@ -1,5 +1,5 @@
 # Calaculator
-😰 Calaculator — a calculator with absurd arithmetic and handmade operations.
+😰 Calaculator — a calculator with absurd arithmetic and handmade operations for Android. Made with Sketchware 7.0.0.
 
 ## Features
 
