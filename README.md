@@ -4,6 +4,7 @@
 ## Features
 
 - **Absurd Arithmetic:** All calculations are done manually using loops — addition, subtraction, multiplication, and even division. Why use standard math when you can subtract in style?
+- **Maximum Code Readability and Optimization (maybe):** The code is structured for clarity and efficiency, making it easier to understand and maintain—even if the arithmetic is absurd.
 - **Division by Zero Allowed:** Because why not? Enter zero as the divisor and watch chaos unfold. Totally intentional, totally absurd.
 - **Subtraction-based Division:** Dividing numbers by repeatedly subtracting the divisor. Totally unnecessary, totally fun.  
 - **Iterative Multiplication:** Multiplication is done through repeated addition. Old-school, quirky, and hilarious.  
