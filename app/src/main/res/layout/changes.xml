@@ -1,0 +1,50 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView
+		android:id="@+id/textview1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dp"
+		android:paddingTop="30dp"
+		android:paddingRight="8dp"
+		android:paddingBottom="8dp"
+		android:text="@string/major_changes"
+		android:textSize="30sp"
+		android:textColor="?colorOnSurface" />
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingLeft="15dp"
+		android:paddingTop="8dp"
+		android:paddingRight="8dp"
+		android:paddingBottom="8dp"
+		android:background="?colorOnSurfaceInverse"
+		android:orientation="vertical">
+		<TextView
+			android:id="@+id/textview2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="[+] Redesigned settings activity.\n[+] Disabled some unnecessary buttons in MainActivity."
+			android:textSize="16sp" />
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="bottom"
+			android:orientation="horizontal">
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="OK"
+				android:textSize="12sp" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

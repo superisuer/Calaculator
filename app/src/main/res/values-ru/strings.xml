@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Калакулятор</string>
+    <string name="big_name">КАЛАКУЛЯТОР</string>
+    <string name="error">ОШИБКА</string>
+    <string name="experemintal_settings">Экспериментальные настройки</string>
+    <string name="end_check_disable">Выключение проверки на окончание</string>
+    <string name="counting_view">Показ процесса подсчёта в реальном времени</string>
+    <string name="negative_mode">Режим минуса</string>
+    <string name="disable_division_by_zero">Выключить деление на ноль</string>
+    <string name="infinite_calculation_protection">Защита от бесконечных вычислений</string>
+    <string name="first">1-ое число</string>
+    <string name="second">2-ое число</string>
+    <string name="answer">Ответ</string>
+    <string name="major_changes">ВАЖНЫЕ ИЗМЕНЕНИЯ</string>
+    <string name="settings">НАСТРОЙКИ</string>
+</resources>

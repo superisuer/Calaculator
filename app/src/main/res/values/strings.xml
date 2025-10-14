@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Calaculator</string>
+    <string name="big_name">CALACULATOR</string>
+    <string name="error">ERR</string>
+    <string name="experemintal_settings">Experimental settings</string>
+    <string name="end_check_disable">Disabling end check</string>
+    <string name="counting_view">Show real-time calculation process</string>
+    <string name="negative_mode">Negative mode</string>
+    <string name="disable_division_by_zero">Disable division by zero</string>
+    <string name="infinite_calculation_protection">Infinite calculation protection</string>
+    <string name="first">1st value</string>
+    <string name="second">2nd value</string>
+    <string name="answer">Answer</string>
+    <string name="major_changes">MAJOR CHANGES</string>
+    <string name="settings">SETTINGS</string>
+</resources>

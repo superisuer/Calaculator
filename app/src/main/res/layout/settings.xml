@@ -1,0 +1,61 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView
+		android:id="@+id/textview1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dp"
+		android:paddingTop="30dp"
+		android:paddingRight="8dp"
+		android:paddingBottom="8dp"
+		android:text="@string/settings"
+		android:textSize="30sp" />
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="?colorOnSurfaceInverse"
+		android:orientation="vertical">
+		<Switch
+			android:id="@+id/switch3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/disable_division_by_zero"
+			android:textSize="16sp" />
+		<Switch
+			android:id="@+id/switch2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/counting_view"
+			android:textSize="16sp" />
+		<Switch
+			android:id="@+id/switch4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/infinite_calculation_protection"
+			android:textSize="16sp" />
+		<Switch
+			android:id="@+id/switch5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/negative_mode"
+			android:textSize="16sp" />
+		<Switch
+			android:id="@+id/switch1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="@string/end_check_disable"
+			android:textSize="16sp" />
+	</LinearLayout>
+</LinearLayout>
