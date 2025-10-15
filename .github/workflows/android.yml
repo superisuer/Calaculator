@@ -15,11 +15,12 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         
-    - name: Install compatible Gradle
+    - name: Install Gradle 6.9.4
       run: |
-        sudo apt update
-        sudo apt install -y gradle-6.9
-        sudo update-alternatives --set gradle /usr/bin/gradle-6.9
+        wget https://services.gradle.org/distributions/gradle-6.9.4-bin.zip
+        sudo unzip -d /opt/gradle gradle-6.9.4-bin.zip
+        echo "GRADLE_HOME=/opt/gradle/gradle-6.9.4" >> $GITHUB_ENV
+        echo "/opt/gradle/gradle-6.9.4/bin" >> $GITHUB_PATH
         
     - name: Build
       run: gradle assembleDebug --no-daemon
