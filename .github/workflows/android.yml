@@ -9,11 +9,15 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Setup JDK 17
-      uses: actions/setup-java@v4
-      with:
-        java-version: '17'
-        distribution: 'temurin'
+    - name: Install OpenJDK 8
+      run: |
+        sudo apt update
+        sudo apt install -y openjdk-8-jdk
         
-    - name: Build with Gradle
-      run: gradle build
+    - name: Set JAVA_HOME
+      run: echo "JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64" >> $GITHUB_ENV
+        
+    - name: Build
+      run: |
+        chmod +x gradlew
+        ./gradlew assembleDebug
