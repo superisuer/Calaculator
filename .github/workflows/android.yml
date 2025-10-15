@@ -15,8 +15,11 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         
-    - name: Install Gradle
-      run: sudo apt update && sudo apt install -y gradle
+    - name: Install compatible Gradle
+      run: |
+        sudo apt update
+        sudo apt install -y gradle-6.9
+        sudo update-alternatives --set gradle /usr/bin/gradle-6.9
         
     - name: Build
-      run: gradle assembleDebug
+      run: gradle assembleDebug --no-daemon
